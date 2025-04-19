@@ -7,6 +7,11 @@ namespace Dukkani.Shared.Middlewares
 {
     public class GlobalException(RequestDelegate next)
     {
+        /// <summary>
+        /// middle ware listn to response
+        /// </summary>
+        /// <param name="context"></param>
+        /// <returns></returns>
         public async Task InvoiceAsync(HttpContext context)
         {
             //default response error variables
