@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35410.144
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E4F944C6-5891-4959-80DA-766EE2F92401}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{FA5928B8-8D1D-4CB2-BD38-5228B32DAF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{F1EAECFF-9D32-42C5-B0CC-B03948BC331E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dukkani.Shared", "Dukkani.Shared\Dukkani.Shared.csproj", "{B9793A6E-8671-4EA3-AC2D-74978D1BB15F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1EAECFF-9D32-42C5-B0CC-B03948BC331E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EAECFF-9D32-42C5-B0CC-B03948BC331E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EAECFF-9D32-42C5-B0CC-B03948BC331E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EAECFF-9D32-42C5-B0CC-B03948BC331E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9793A6E-8671-4EA3-AC2D-74978D1BB15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9793A6E-8671-4EA3-AC2D-74978D1BB15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9793A6E-8671-4EA3-AC2D-74978D1BB15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9793A6E-8671-4EA3-AC2D-74978D1BB15F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA5928B8-8D1D-4CB2-BD38-5228B32DAF40} = {E4F944C6-5891-4959-80DA-766EE2F92401}
+		{F1EAECFF-9D32-42C5-B0CC-B03948BC331E} = {FA5928B8-8D1D-4CB2-BD38-5228B32DAF40}
+	EndGlobalSection
+EndGlobal
