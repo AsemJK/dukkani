@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Dukkani.Shared\Dukkani.Shared.csproj" />
+    <ProjectReference Include="..\CatalogApi.Domain\CatalogApi.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

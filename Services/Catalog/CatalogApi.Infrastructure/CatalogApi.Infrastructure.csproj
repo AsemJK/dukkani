@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CatalogApi.Application\CatalogApi.Application.csproj" />
+  </ItemGroup>
+
 </Project>
