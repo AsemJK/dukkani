@@ -1,5 +1,5 @@
 
-namespace Catalog.API
+namespace CatalogApi.Presentation
 {
     public class Program
     {
