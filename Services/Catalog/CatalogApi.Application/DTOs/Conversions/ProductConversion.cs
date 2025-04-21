@@ -4,9 +4,8 @@ namespace CatalogApi.Application.DTOs.Conversions
 {
     public static class ProductConversion
     {
-        public static Product ToEntity(this ProductDto productDto)
+        public static Product ToEntity(ProductDto productDto)
         {
-            //Extension method
             return new Product
             {
                 Id = productDto.Id,

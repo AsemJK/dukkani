@@ -12,7 +12,7 @@ namespace Dukkani.Shared.Middlewares
         /// </summary>
         /// <param name="context"></param>
         /// <returns></returns>
-        public async Task InvoiceAsync(HttpContext context)
+        public async Task InvokeAsync(HttpContext context)
         {
             //default response error variables
             var message = "";

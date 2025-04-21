@@ -4,7 +4,7 @@ namespace Dukkani.Shared.Middlewares
 {
     public class ListenToApiGateway(RequestDelegate next)
     {
-        public async Task InvoiceAsync(HttpContext context)
+        public async Task InvokeAsync(HttpContext context)
         {
             //only for requests which header contains some key for api gateway
             var signedHeader = context.Request.Headers["Api-Gateway"];
